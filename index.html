@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/variables.css">
+  <link rel="stylesheet" href="assets/css/elements.css">
+  <link rel="stylesheet" href="assets/css/classes.css">
+  <link rel="stylesheet" href="assets/css/menu.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+  <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+  <label class="close-menu-label" for="close-menu" title="close menu"></label>
+  <aside class="menu white-bg">
+    <div class="main-content menu-content">
+      <h1 onclick="getElementById('close-menu').checked = false;">
+        <a href="#home">HALISON ROQUE</a>
+      </h1>
+
+      <nav>
+        <ul onclick="getElementById('close-menu').checked = false;">
+          <li><a href="#intro">Sobre</a></li>
+          <li><a href="#grid-one">Habilidades</a></li>
+          <li><a href="#contact">Contatos</a></li>
+        </ul>
+      </nav>
+    </div>
+  </aside>
+  <div class="menu-spacing"></div>
+
+  <section id="home" class="intro main-bg section">
+    <div class="main-content intro-content">
+      <div class="intro-text-content">
+        <h2>Desenvolvedor Web <br> TypeScript e React</h2>
+        <p>"Transformando ideias em soluções digitais inovadoras, unindo criatividade, tecnologia e excelência para entregar
+        resultados que fazem a diferença."</p>
+      </div>
+      <div class="intro-img">
+        <img src="assets/img/javascript.svg" alt="Logo de HTML, CSS e JS.">
+      </div>
+    </div>
+  </section>
+
+  <section id="intro" class="white-bg section">
+    <div class="main-content top3-content">
+      <h2>sobre mim</h2>
+      <p>Sou programador web com experiência em desenvolvimento de interfaces modernas e funcionais. Minhas principais
+      habilidades incluem criação de Landing Pages, TypeScript, React e WordPress, permitindo-me criar soluções personalizadas que aliam desempenho,
+      design e usabilidade.      
+      </p>
+      <p>Tenho foco em entregar projetos eficientes, responsivos e otimizados, sempre alinhados às necessidades do cliente e das
+      melhores práticas do mercado.</p>
+      <p>Vamos transformar ideias em projetos digitais de impacto!</p>
+    </div>
+  </section>
+
+
+  <section id="grid-one" class="grid-one main-bg section">
+    <div class="main-content grid-one-content">
+      <h2 class="grid-main-heading">habilidades</h2>
+      <p class="grid-description">tecnologias de desenvolvimento</p>
+
+      <div class="grid">
+        <article>
+          <h3>WordPress</h3>
+          <p>Desenvolvimento de sites personalizados e otimizados utilizando WordPress, 
+            explorando ao máximo seus recursos para criar páginas
+          dinâmicas, responsivas e de fácil gerenciamento.</p>
+        </article>
+        <article>
+          <h3>Landing Pages</h3>
+          <p>Criação de landing pages estratégicas, projetadas para converter visitantes em clientes. Com foco em design atraente,
+          usabilidade e copywriting persuasivo, entrego páginas rápidas, responsivas e otimizadas para SEO.</p>
+        </article>
+        <article>
+          <h3>React</h3>
+          <p>Criação de aplicações web modernas e de alto desempenho utilizando React, com foco em experiências de usuário rápidas,
+          dinâmicas e responsivas. Com React, entrego soluções inovadoras que unem tecnologia e design para transformar ideias em realidade.</p>
+        </article>
+        <article>
+          <h3>TypeScript</h3>
+          <p>Utilizo TypeScript para desenvolver aplicações mais seguras e organizadas, com tipagem estática e código mais confiável.
+          Ideal para projetos escaláveis e de longo prazo.</p>
+        </article>
+        <article>
+          <h3>Nest.js</h3>
+          <p>Crio APIs escaláveis e bem estruturadas com NestJS, seguindo a arquitetura modular e boas práticas. Uso TypeScript para
+          garantir segurança e clareza no código. Ideal para projetos robustos e de fácil manutenção</p>
+        </article>
+        <article>
+          <h3>Automações</h3>
+          <p>Crio automações que otimizam tarefas repetitivas e economizam tempo, integrando sistemas, plataformas e fluxos de
+          trabalho. Mais eficiência, menos esforço manual.</p>
+        </article>
+        <article>
+          <h3>ManyChat</h3>
+          <p>Crio fluxos de automação no ManyChat para melhorar o atendimento, capturar leads e aumentar as conversões no WhatsApp,
+          Instagram e Messenger. Tudo de forma personalizada e eficiente.</p>
+        </article>
+        <article>
+          <h3>BotConversa</h3>
+          <p>Desenvolvo automações no BotConversa focadas em capturar leads, nutrir contatos e vender pelo WhatsApp de forma
+          automática. Ideal para lançamentos, vendas diretas e atendimento ágil.</p>
+        </article>
+        <article>
+          <h3>Make</h3>
+          <p>Utilizo o Make para criar integrações e automações entre plataformas, conectando ferramentas como CRMs, e-mail, WhatsApp
+          e e-commerce. Tudo para tornar processos mais rápidos, inteligentes e sem esforço manual.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="intro main-bg section">
+    <div class="main-content intro-content">
+      <div class="intro-text-content">
+        <h2>Vamos conversar?</h2>
+        <p>Entre em contato comigo pelas redes abaixo. Seja para tirar dúvidas, conversar sobre projetos ou trocar ideias.
+        </p>
+      </div>
+  
+      <div class="intro-img">
+        <img src="assets/img/javascript.svg" alt="Logo de HTML, CSS e JS.">
+      </div>
+  
+      <div class="contact-links">
+        <a href="https://www.instagram.com/halison_tech/" target="_blank" class="contact-icon instagram">Instagram</a>
+        <a href="https://github.com/HalisonRoque" target="_blank" class="contact-icon github">GitHub</a>
+        <a href="https://wa.me/5583993973134" target="_blank" class="contact-icon whatsapp">WhatsApp</a>
+        <a href="mailto:seuemail@exemplo.com" class="contact-icon email">E-mail</a>
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer" class="footer white-bg">
+    <p><a rel="nofollow" target="_blank" href="https://www.instagram.com/halison_tech/">Feito com <span class="heart">❤</span> por Halison Roque</a></p>
+  </footer>
+
+  <a class="back-to-top" href="#">➤</a>
+</body>
+
+</html>
